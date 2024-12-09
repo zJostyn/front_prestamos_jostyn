@@ -60,7 +60,7 @@ export class Sidebar {
 
   loadPage(page: string, linkId: string) {
     console.log('Cargando página:', page, 'LinkId:', linkId);
-    import(`./${page}.ts`)
+    import(`../components/pages/${page}.ts`)
       .then((module) => {
         const PageClass = module[Object.keys(module)[0]];
         const content = new PageClass();
