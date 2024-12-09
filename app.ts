@@ -1,5 +1,5 @@
-import { Sidebar } from './components/pages/sidebar';
-import { EstudiantePage } from './components/pages/estudiante';
+import { Sidebar } from './src/components/pages/sidebar';
+import { EstudiantePage } from './src/components/pages/estudiante';
 
 window.addEventListener('DOMContentLoaded', () => {
     const sidebar = new Sidebar();

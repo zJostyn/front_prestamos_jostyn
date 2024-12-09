@@ -8,7 +8,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     /* Bundler mode */
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
