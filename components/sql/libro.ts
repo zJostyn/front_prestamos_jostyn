@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/libros';
+const API_URL = 'https://back-prestamos-jostyn.onrender.com/libros';
 
 export const obtenerTodos = async () => {
     try {

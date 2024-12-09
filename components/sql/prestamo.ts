@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/prestamos';
+const API_URL = 'https://back-prestamos-jostyn.onrender.com/prestamos';
 
 export const obtenerPrestamos = async () => {
     try {
